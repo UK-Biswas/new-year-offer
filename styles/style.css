@@ -3,20 +3,33 @@
     padding: 0;
 }
 
-.banner-container {
-    background-image: url(../images/main-banner-image.png);
+body {
+    padding: 80px 8%;
+}
+
+.hero-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(../images/main-banner-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     height: 90vh;
-    max-height: 100%;
-    margin: 50px 8%;
-    border-radius: 7px;
-    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
 
 }
 
-.banner-text {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.hero-text {
+    color: white;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 8rem;
+}
+
+.hero-text h1 {
+    font-size: 12rem;
 }
