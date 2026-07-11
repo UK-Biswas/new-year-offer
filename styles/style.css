@@ -9,6 +9,13 @@ section {
     padding: 50px 4%;
 }
 
+.primary-color{
+    color: #FF0000;
+}
+
+.bold{
+    font-weight: 700;
+}
 
 /* Hero secion styles */
 .hero-container {
@@ -92,6 +99,7 @@ section {
     justify-content: center;
     justify-content: space-between;
     margin: 126px 140px;
+    padding: 0 50px;
     gap: 300px;
     margin: 0 auto;
 }
@@ -116,4 +124,87 @@ section {
     object-fit: cover;
     flex-shrink: 0;
 }
+
+/* Schedule Section style */
+.schedule-container{
+    /* background: linear-gradient(180deg, #FF0000 10%, #FF000000 100%); */
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    height: 80vh;
+    /* background-color: gray; */
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-box button{
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    background-color: #FF0000;;
+}
+
+.schedule-text{
+    font-size: 2rem;
+    line-height: 30px;
+
+}
+
+.schedule-text span{
+    color: #FF0000;
+}
+
+/* New Best Offer Section Styles */
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.best-offer-container h3{
+    font-size: 2rem;
+}
+
+.best-offer-left{
+   max-width: 100%;
+}
+
+.best-offer-middle{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.eclips {
+    width: 100%;
+    height: 100%;
+    border: 10px solid tomato;
+    padding: 5px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.best-offer-middle img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.best-offer-right{
+    max-width: 100%;
+}
+
+.best-offer-right img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
 
