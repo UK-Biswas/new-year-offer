@@ -208,7 +208,6 @@ section {
 /* Holidays Sale sections tyle */
 .holyday-sale-container{
     height: 100vh;
-    border: 2px solid orangered;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -221,37 +220,6 @@ section {
 .holyday-sale-box span{
     color: #FF0000;
 }
-
-/* .holyday-image{
-    position: relative;
-    background: url("../images/Rectangle 2.png") no-repeat bottom;
-    background-size: 100% auto;
-    height: 500px;
-}
-
-.holyday-image-left{
-    position: absolute;
-    bottom: 20%;
-    left: 50px;
-}
-
-.holyday-image-left img{
-    width: 400px;
-    max-width: 100%;
-    height: auto;
-}
-
-.holyday-image-right{
-    position: absolute;
-    right: 90px;
-    bottom: 250px;
-}
-
-.holyday-image-right img{
-    width: 220px;
-    max-width: 100%;
-} */
-
 
 .holyday-image{
     background-image: url(../images/Rectangle\ 2.png);
@@ -282,7 +250,70 @@ section {
 }
 
 .holyday-image-right img{
-    width: 200px;
+    width: 220px;
     max-width: 100%;
     height: auto;
+}
+
+/* Portfolio container Section Start */
+
+.portfolio-container{
+    height: 90vh;
+}
+
+.gallery{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "one two nine"
+    "four two three"
+    "eight five three"
+    "eight seven six"
+    ;
+}
+
+.gallery img{
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.box-1{
+    grid-area: one;
+}
+
+.box-2{
+    grid-area: two;
+}
+
+.box-3{
+    grid-area: three;
+}
+
+.box-4{
+    grid-area: four;
+}
+
+.box-5{
+    grid-area: five;
+}
+
+.box-6{
+    grid-area: six;
+}
+
+.box-7{
+    grid-area: seven;
+}
+
+.box-8{
+    grid-area: eight;
+}
+
+.box-9{
+    grid-area: nine;
 }
