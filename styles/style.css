@@ -207,7 +207,7 @@ section {
 
 /* Holidays Sale sections tyle */
 .holyday-sale-container{
-    height: 120vh;
+    height: 100vh;
     border: 2px solid orangered;
     display: flex;
     flex-direction: column;
@@ -222,15 +222,67 @@ section {
     color: #FF0000;
 }
 
+/* .holyday-image{
+    position: relative;
+    background: url("../images/Rectangle 2.png") no-repeat bottom;
+    background-size: 100% auto;
+    height: 500px;
+}
+
+.holyday-image-left{
+    position: absolute;
+    bottom: 20%;
+    left: 50px;
+}
+
+.holyday-image-left img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.holyday-image-right{
+    position: absolute;
+    right: 90px;
+    bottom: 250px;
+}
+
+.holyday-image-right img{
+    width: 220px;
+    max-width: 100%;
+} */
+
+
 .holyday-image{
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: center;
+    height: 200px;
+    object-fit: cover;
     background-size: cover;
-    display: flex;
-    height: 20%;
     border-radius: 12px 0 12px 12px;
-    justify-content: space-between;
-    padding: 0 80px 10px 80px;
+    position: relative;
 }
 
+.holyday-image-left{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.holyday-image-left img{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.holyday-image-right{
+    position: absolute;
+    right: 50px;
+    bottom: 220px;
+}
+
+.holyday-image-right img{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
