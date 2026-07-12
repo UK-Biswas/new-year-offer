@@ -127,10 +127,8 @@ section {
 
 /* Schedule Section style */
 .schedule-container{
-    /* background: linear-gradient(180deg, #FF0000 10%, #FF000000 100%); */
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
     height: 80vh;
-    /* background-color: gray; */
     border-radius: 30px 30px 0 0;
     text-align: center;
     display: grid;
@@ -207,4 +205,32 @@ section {
     object-fit: cover;
 }
 
+/* Holidays Sale sections tyle */
+.holyday-sale-container{
+    height: 120vh;
+    border: 2px solid orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.holyday-sale-box{
+    text-align: center;
+}
+
+.holyday-sale-box span{
+    color: #FF0000;
+}
+
+.holyday-image{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 20%;
+    border-radius: 12px 0 12px 12px;
+    justify-content: space-between;
+    padding: 0 80px 10px 80px;
+}
 
