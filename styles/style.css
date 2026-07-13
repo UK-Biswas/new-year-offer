@@ -317,3 +317,35 @@ section {
 .box-9{
     grid-area: nine;
 }
+
+/* Subscribe Newsletter Section Styles */
+.newsletter-container{
+    height: 90vh;
+    text-align: center;
+    background-color: #fff2f2;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.newsletter-search{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-search input{
+    padding: 10px 60px;
+    border-radius: 12px 0 0 12px;
+    border: none;
+    background-color: white;
+}
+
+.newsletter-search button{
+    border-radius: 0 12px 12px 0;
+    padding: 0 5%;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
