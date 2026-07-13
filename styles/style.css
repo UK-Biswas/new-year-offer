@@ -17,6 +17,34 @@ section {
     font-weight: 700;
 }
 
+/* Navbar styles */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #070211;
+    color: white;
+    padding: 15px 5%;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav ul li{
+    max-width: a;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    max-width: fit-content;
+    text-decoration: none;
+}
+
 /* Hero secion styles */
 .hero-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
@@ -320,6 +348,7 @@ section {
 
 /* Subscribe Newsletter Section Styles */
 .newsletter-container{
+    margin-top: 400px;
     height: 90vh;
     text-align: center;
     background-color: #fff2f2;
