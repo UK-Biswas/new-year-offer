@@ -349,3 +349,37 @@ section {
     background-color: #FF0000;
     color: white;
 }
+
+/* Footer Section Styles */
+footer{
+    background-color: #070211;
+    height: 50vh;
+    color: white;
+}
+
+.footer-container-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-container-top-right div{
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-container-middle{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-icon{
+    align-items: center;   
+}
+
+.footer-container-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
